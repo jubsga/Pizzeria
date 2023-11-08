@@ -1,0 +1,144 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .headerLogin {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #8e1c1a;
+    gap: 50px;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 25pt;
+    font-family: "Poppins";
+    text-transform: uppercase;
+  }
+  
+  .logo {
+    height: 95%;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f4;
+  }
+  
+  .block {
+    width: fit-content;
+    height: fit-content;
+    padding: 2em;
+    background-color: #f7f7f7;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .buttonLogin {
+    margin: 0.7em 0;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-size: 15pt;
+    border: 2px solid #000;
+    width: 20% !important;
+    font-family: "Poppins";
+    position: static !important;
+  }
+  
+  .input {
+    margin: 0.7em 0;
+    border-radius: 8px;
+    border-color: #aa1818;
+    border: 2px #aa1818 solid;
+    padding: 0.5em 1em;
+    padding-right: 40px;
+    font-size: 15pt;
+    width: calc(60% - 2em);
+    font-family: "Poppins";
+  }
+  
+  .buttonLogin {
+    margin: 0.7em 0;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-size: 25px;
+    border: 2px solid #000;
+    width: 50% !important;
+    font-family: "Poppins";
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e1c1a;
+    color: #fff;
+  }
+  
+  .buttonLogin:hover {
+    opacity: 0.9;
+    transition: linear 0.2s;
+    transform: scale(1.01);
+  }
+  
+  .buttonLogin:not(:hover) {
+    transition: linear 0.2s;
+  }
+  
+  .buttonLogin:active {
+    background-color: #aa1818;
+    opacity: 1;
+  }
+  
+  .info {
+    font-family: "Poppins";
+    margin: auto;
+  }
+  
+
+  
+  .inputContainer {
+    position: relative;
+  }
+  
+  .passwordVisibilityButton {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  .passwordVisibilityButton.visible {
+    color: #555;
+    right: 10px; /* Alterado para o mesmo valor do botão de visibilidade de senha */
+  }
+  
+  .passwordVisibilityButton svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+  

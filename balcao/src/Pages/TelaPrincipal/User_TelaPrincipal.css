@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.body {
+  background-color: #eee;
+  font-family: "Poppins", Helvetica, Arial;
+  font-size: 15px;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.Produtos-Container {
+  background-color: #F2F2F4;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 20vw;
+  padding-left: 2.5vw;
+  position: sticky;
+}
+
+#root {
+  width: 100%;
+  height: fit-content;
+  font-family: "Poppins";
+}
+
+.containerGeral {
+  display: flex;
+}
+
+.containerItens {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F4;
+}
+
+.buttonFiltroContainer {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+  background-color: #8e1c1a;
+  max-width: 850px; /* Defina uma largura máxima */
+  margin: 0 auto; /* Centraliza na horizontal */
+  height: 85px;
+  border-top-left-radius: 0; /* Mantém a borda superior reta */
+  border-top-right-radius: 0; /* Mantém a borda superior reta */
+  border-bottom-left-radius: 20px; /* Arredonda a borda inferior esquerda */
+  border-bottom-right-radius: 20px; 
+  padding: 5px;
+}
+
+.buttonFiltro {
+  padding: 10px;
+  font-size: 15pt;
+  border: 1px solid transparent;
+  width: 150px; /* Defina uma largura fixa que funcione para o seu layout */
+  font-family: "Poppins";
+  position: relative;
+  background-color: #ffffff;
+  color: #8e1c1a;
+  transition: transform 0.3s ease; /* Adicionamos uma transição */
+}
+
+.buttonPizzas,
+.buttonPromocoes {
+  padding: 10px;
+  font-size: 15pt;
+  border: 1px solid transparent;
+  width: 150px; /* Defina uma largura fixa que funcione para o seu layout */
+  font-family: "Poppins";
+  position: relative;
+  background-color: #ffffff;
+  color: #8e1c1a;
+}
+
+.buttonPizzas{
+  border-top-left-radius: 5px;   
+  border-bottom-left-radius: 15px; 
+}
+
+.buttonPromocoes{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 15px; 
+}
+
+.buttonPizzas:hover,
+.buttonFiltro:hover,
+.buttonPromocoes:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}

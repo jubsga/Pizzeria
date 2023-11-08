@@ -1,0 +1,149 @@
+.header {
+    width: 100vW;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #8e1c1a;
+    gap: 50px;
+}
+
+.Services{
+  background: #F1F0F6;
+}
+
+#content {
+	position: relative;
+	width: calc(100% - 260px);
+	left: 260px;
+	transition: all .3s ease;
+}
+#sidebar.hide + #content {
+	width: calc(100% - 60px);
+	left: 60px;}
+
+.title {
+    color: #fff;
+    font-size: 25pt;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+ 
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 300px;
+  height: 70px; /* Ajuste a altura do botão para incluir o padding */
+  margin-right: 30px;
+  background-color: #8e1c1a;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 5px;
+  border: none;
+  cursor: pointer;
+
+  padding-top: 50px; /* Aumenta o espaçamento de cima para 20px */
+  padding-bottom: 80px; /* Aumenta o espaçamento de baixo para 20px */
+  padding-left: 10px; /* Mantém o espaçamento de 10px na esquerda */
+  padding-right: 10px; /* Mantém o espaçamento de 10px na direita */
+
+}
+
+.button:hover {
+  opacity: 0.9;
+  transition: linear .2s;
+  transform: scale(1.01);
+}
+
+.button.red-button {
+  background: #C14325;
+}
+
+.button.yellow-button {
+  background: #F39220;
+   
+}
+
+.button.green-button {
+  background: #698C3D;
+  margin-bottom: 140px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.logo {
+    height: 95%;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.animation-container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-in {
+  opacity: 1;
+}
+.fade-in {
+  animation: fade-in-animation 0.4s ease-in-out forwards;
+}
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

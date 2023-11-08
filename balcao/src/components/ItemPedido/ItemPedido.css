@@ -1,0 +1,9 @@
+.itemEQtdPedido {
+    display: flex;
+    justify-content: center;
+}
+.itemEQtdPedido h3{
+    margin-right: 0.5em;
+    margin-top: 0px;
+    margin-block-end: 5px;
+}
